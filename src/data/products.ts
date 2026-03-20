@@ -8,8 +8,8 @@ export interface Product {
   originalPrice?: number;
 }
 
+// Productos de limpieza (página Productos de Limpieza e Inicio)
 export const products: Product[] = [
-  // Productos de limpieza
   {
     id: "1",
     title: "Detergente Líquido Multiuso 2L",
@@ -42,35 +42,71 @@ export const products: Product[] = [
     image: "https://images.unsplash.com/photo-1582735689369-4fe89db7114c?w=400&h=400&fit=crop",
     category: "limpieza",
   },
-  // Productos de bazar
+];
+
+// Productos exclusivos de Bazar (diferentes a Ofertas, Combos y Productos de Limpieza)
+export const bazarProducts: Product[] = [
   {
-    id: "5",
-    title: "Set de Ollas 3 Piezas Acero",
-    price: 8990,
-    image: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=400&fit=crop",
+    id: "b1",
+    title: "Tazas de Café x4",
+    price: 3490,
+    image: "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=400&h=400&fit=crop",
     category: "bazar",
   },
   {
-    id: "6",
-    title: "Jarra de Vidrio 1.5L",
-    price: 2490,
-    image: "https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?w=400&h=400&fit=crop",
+    id: "b2",
+    title: "Colador de Fideos Acero",
+    price: 1890,
+    image: "https://images.unsplash.com/photo-1556909212-d5b604d0c90d?w=400&h=400&fit=crop",
     category: "bazar",
-    isOffer: true,
-    originalPrice: 2990,
   },
   {
-    id: "7",
-    title: "Set de Cubiertos 24 Piezas",
-    price: 5490,
+    id: "b3",
+    title: "Platos de Cerámica Set 6 Piezas",
+    price: 5990,
+    image: "https://images.unsplash.com/photo-1578500494198-246f612d3b0d?w=400&h=400&fit=crop",
+    category: "bazar",
+  },
+  {
+    id: "b4",
+    title: "Sartén de Cocina Antiadherente",
+    price: 4290,
+    image: "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?w=400&h=400&fit=crop",
+    category: "bazar",
+  },
+  {
+    id: "b5",
+    title: "Copas de Vino Set 4 Piezas",
+    price: 4490,
+    image: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=400&h=400&fit=crop",
+    category: "bazar",
+  },
+  {
+    id: "b6",
+    title: "Panera de Madera",
+    price: 2790,
+    image: "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=400&h=400&fit=crop",
+    category: "bazar",
+  },
+  {
+    id: "b7",
+    title: "Set de Cubiertos Elegantes 24 Piezas",
+    price: 6990,
     image: "https://images.unsplash.com/photo-1558036117-15d82a90b9b1?w=400&h=400&fit=crop",
     category: "bazar",
   },
   {
-    id: "8",
-    title: "Bowl Cerámico Grande",
-    price: 1890,
-    image: "https://images.unsplash.com/photo-1578500494198-246f612d3b0d?w=400&h=400&fit=crop",
+    id: "b8",
+    title: "Pava para Calentar Agua",
+    price: 3290,
+    image: "https://images.unsplash.com/photo-1564890369478-c89ca6d9cde9?w=400&h=400&fit=crop",
+    category: "bazar",
+  },
+  {
+    id: "b9",
+    title: "Cafetera Eléctrica",
+    price: 8990,
+    image: "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=400&h=400&fit=crop",
     category: "bazar",
   },
 ];

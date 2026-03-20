@@ -23,7 +23,7 @@ const slides = [
     title: "Bazar para tu cocina",
     subtitle: "Todo lo que necesitas para equipar tu hogar",
     cta: "Explorar bazar",
-    href: "/",
+    href: "/bazar",
     image:
       "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=1920&h=600&fit=crop",
   },

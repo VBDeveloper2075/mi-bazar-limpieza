@@ -5,8 +5,8 @@ import { useCart } from "@/context/CartContext";
 const navLinks = [
   { to: "/", label: "Productos de Limpieza" },
   { to: "/ofertas", label: "Ofertas" },
-  { to: "/", label: "Bazar" },
-  { to: "/", label: "Combos" },
+  { to: "/bazar", label: "Bazar" },
+  { to: "/combos", label: "Combos" },
 ];
 
 export default function Navbar() {
