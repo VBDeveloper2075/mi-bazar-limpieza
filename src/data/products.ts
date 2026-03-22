@@ -4,6 +4,7 @@ export interface Product {
   price: number;
   image: string;
   category: "limpieza" | "bazar";
+  description?: string;
   isOffer?: boolean;
   originalPrice?: number;
 }
